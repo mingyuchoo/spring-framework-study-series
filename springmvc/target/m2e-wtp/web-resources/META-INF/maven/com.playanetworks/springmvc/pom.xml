@@ -15,7 +15,7 @@
 		<log4j-version>1.2.15</log4j-version>
 		<javax.inject-version>1</javax.inject-version>
 		<junit-version>4.12</junit-version>
-		<jacoco-version>0.7.9</jacoco-version>
+		<jacoco-version>0.8.1</jacoco-version>
 	</properties>
 	<dependencies>
 		<!-- mysql -->
@@ -188,8 +188,8 @@
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.7.0</version>
 				<configuration>
-					<source>1.8</source>
-					<target>1.8</target>
+					<source>9</source>
+					<target>9</target>
 					<compilerArgument>-Xlint:all</compilerArgument>
 					<showWarnings>true</showWarnings>
 					<showDeprecation>true</showDeprecation>
@@ -207,6 +207,12 @@
 				<groupId>org.jacoco</groupId>
 				<artifactId>jacoco-maven-plugin</artifactId>
 				<version>${jacoco-version}</version>
+				<configuration>
+					<systemPropertyVariables>
+						<jacoco-agent.destfile>target/jacoco.exec</jacoco-agent.destfile>
+					</systemPropertyVariables>
+				</configuration>
+				<!-- 
 				<executions>
 					<execution>
 						<id>prepare-agent</id>
@@ -233,11 +239,7 @@
 						</configuration>
 					</execution>
 				</executions>
-				<configuration>
-					<systemPropertyVariables>
-						<jacoco-agent.destfile>target/jacoco.exec</jacoco-agent.destfile>
-					</systemPropertyVariables>
-				</configuration>
+				 -->
 			</plugin>
 		</plugins>
 	</build>
