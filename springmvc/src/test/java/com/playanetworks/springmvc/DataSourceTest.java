@@ -11,15 +11,15 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration(locations = { "file:src/main/webapp/WEB-INF/spring/*.xml" })
+@ContextConfiguration(locations = { "file:src/main/webapp/WEB-INF/spring/root-context.xml" })
 public class DataSourceTest {
 
     @Inject
-    private DataSource ds;
+    private DataSource dataSource;
 
     @Test
     public void testConnection() throws Exception {
-        try (Connection con = ds.getConnection()) {
+        try (Connection con = dataSource.getConnection()) {
             System.out.println(con);
         } catch (Exception e) {
             e.printStackTrace();

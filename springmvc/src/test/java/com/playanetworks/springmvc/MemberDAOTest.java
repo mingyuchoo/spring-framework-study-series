@@ -11,7 +11,7 @@ import com.playanetworks.springmvc.DAO.MemberDAO;
 import com.playanetworks.springmvc.VO.MemberVO;
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration(locations = {"file:src/main/webapp/WEB-INF/spring/*.xml"})
+@ContextConfiguration(locations = {"file:src/main/webapp/WEB-INF/spring/root-context.xml"})
 public class MemberDAOTest {
 	@Inject
 	private MemberDAO dao;
