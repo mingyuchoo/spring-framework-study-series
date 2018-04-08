@@ -1,4 +1,4 @@
-package com.playanetworks.springmvc;
+package com.playanetworks.springmvc.controller;
 
 import java.text.DateFormat;
 import java.util.Date;

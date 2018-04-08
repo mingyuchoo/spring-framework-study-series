@@ -1,4 +1,4 @@
-package com.playanetworks.springmvc.VO;
+package com.playanetworks.springmvc.vo;
 
 import java.util.Date;
 

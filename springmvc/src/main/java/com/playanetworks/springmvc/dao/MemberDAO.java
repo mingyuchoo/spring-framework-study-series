@@ -1,6 +1,6 @@
-package com.playanetworks.springmvc.DAO;
+package com.playanetworks.springmvc.dao;
 
-import com.playanetworks.springmvc.VO.MemberVO;;
+import com.playanetworks.springmvc.vo.MemberVO;;
 
 public interface MemberDAO {
     public String getTime();

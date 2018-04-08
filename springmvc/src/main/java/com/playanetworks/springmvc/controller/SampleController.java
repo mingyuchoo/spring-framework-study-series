@@ -1,4 +1,4 @@
-package com.playanetworks.springmvc;
+package com.playanetworks.springmvc.controller;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
-import com.playanetworks.springmvc.VO.ProductVO;
+import com.playanetworks.springmvc.vo.ProductVO;
 
 @Controller
 public class SampleController {

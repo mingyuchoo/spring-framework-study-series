@@ -1,4 +1,4 @@
-package com.playanetworks.springmvc.DAO;
+package com.playanetworks.springmvc.dao;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -8,7 +8,7 @@ import javax.inject.Inject;
 import org.apache.ibatis.session.SqlSession;
 import org.springframework.stereotype.Repository;
 
-import com.playanetworks.springmvc.VO.MemberVO;
+import com.playanetworks.springmvc.vo.MemberVO;
 
 @Repository
 public class MemberDAOImpl implements MemberDAO {
