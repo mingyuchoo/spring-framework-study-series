@@ -15,7 +15,7 @@ public class MemberDAOImpl implements MemberDAO {
     @Inject
     private SqlSession          sqlSession;
     private static final String namespace = "com.playanetworks.springmvc.MemberMapper";
-
+                      
     @Override
     public String getTime() {
         return sqlSession.selectOne(namespace + ".getTime");

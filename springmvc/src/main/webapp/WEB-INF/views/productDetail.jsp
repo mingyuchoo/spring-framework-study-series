@@ -1,5 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
-    pageEncoding="EUC-KR"%>
+<%@ page language="java" contentType="text/html; charset=UTF8" pageEncoding="UTF8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -7,7 +6,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h3>°ν°΄Έν: ${productVO.name }</h3>
-<h3>°΅°έ: ${productVO.price }Ώψ</h3>
+<h3>κ³ κ°λª…: ${productVO.name }</h3>
+<h3>κ°€κ²©: ${productVO.price }μ›</h3>
 </body>
 </html>

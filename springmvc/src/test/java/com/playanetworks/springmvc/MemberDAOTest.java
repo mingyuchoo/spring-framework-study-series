@@ -18,7 +18,7 @@ public class MemberDAOTest {
 	
 	@Test
 	public void testTime() throws Exception {
-		System.out.println("현재 시간" + dao.getTime());
+		System.out.println("Current Time: " + dao.getTime());
 	}
 	
 //	@Test
@@ -26,7 +26,7 @@ public class MemberDAOTest {
 //		MemberVO member = new MemberVO();
 //		member.setUserId("nodle");
 //		member.setUserPw("1234");
-//		member.setUserName("강노들");
+//		member.setUserName("Nodle");
 //		member.setEmail("mgchoo@mail.com");
 //		dao.insertMember(member);
 //	}
