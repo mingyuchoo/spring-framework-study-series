@@ -1,4 +1,9 @@
-# spring-framework-study
+<p align="center">
+  <a href="https://github.com/mingyuchoo/spring-framework-study-series/issues"><img alt="Issues" src="https://img.shields.io/github/issues/mingyuchoo/spring-framework-study-series?color=appveyor" /></a>
+  <a href="https://github.com/mingyuchoo/spring-framework-study-series/pulls"><img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/mingyuchoo/spring-framework-study-series?color=appveyor" /></a>
+</p>
+
+# spring-framework-study-series
 
 1. springmvc
 
